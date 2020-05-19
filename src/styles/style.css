@@ -53,7 +53,7 @@ body {
   padding: 0px;
 }
 
-#sections li a {
+#sections li a, .selected_item {
   display: block;
   margin: 5px 0px;
   padding: 2px 5px;
@@ -138,6 +138,11 @@ h1 {
   background: url(../images/logo.png) left top no-repeat;
 }
 
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
 #main h2 {
   color: #293499;
 }
@@ -175,6 +180,16 @@ h1 {
   color: white;
 }
 
+.selected_item {
+  background-color: #d00;
+  color: white;
+  border-color: white;
+}
+
+#user a {
+  color: yellow;
+}
+
 body {
   background: url(../images/content-bg.png) white left top repeat-y;
   color: black;
@@ -193,6 +208,11 @@ body {
 h1 {
   font-size: 180%;
   letter-spacing: 1px;
+}
+
+
+#title a {
+  text-decoration: none;
 }
 
 #main h2 {
@@ -222,4 +242,5 @@ h1 {
 
 #user {
   font-size: 90%;
+  text-align: right;
 }
