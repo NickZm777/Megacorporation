@@ -139,12 +139,12 @@ h1 {
 }
 
 h1 a {
-  color: white;
+  color: yellow;
   text-decoration: none;
 }
 
 #main h2 {
-  color: #293499;
+  color: #646891;
 }
 
 #main .picture {
@@ -152,13 +152,13 @@ h1 a {
 }
 
 #sections li a {
-  background: #293499;
+  background: #3e9bf1;
   color: white;
-  border-color: white;
+  border-color: gray;
 }
 
 #sections li a:hover {
-  background: #d00;
+  background: #E56D6D;
 }
 
 #news h2 {
@@ -166,24 +166,24 @@ h1 a {
 }
 
 #news a {
-  color: #d00;
+  color: #E56D6D;
   background: url(../images/red-arrow.png) right center no-repeat;
 }
 
 #meta,
 #meta a {
-  background: #45f;
+  background: #3e9bf1;
   color: white;
 }
 
 #user {
-  color: white;
+  color: greenyellow;
 }
 
 .selected_item {
-  background-color: #d00;
+  background-color: #E56D6D;
   color: white;
-  border-color: white;
+  border-color: gray;
 }
 
 #user a {
